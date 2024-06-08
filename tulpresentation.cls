@@ -234,6 +234,8 @@
 
 \newcommand{\TULsoucastURL}{\TUL@URL}
 
+\newcommand{\subheader}[1]{{\usebeamercolor[fg]{framesubtitle}\textbf{#1}\par}}
+
 \mode<presentation>
 {
   \useinnertheme{circles}
@@ -258,6 +260,8 @@
   \setbeamercolor{bibliography entry journal}{fg=black} % literatura černě a ne modře
   \setbeamercolor{bibliography entry note}{fg=black} % literatura černě a ne modře
   \setbeamertemplate{bibliography item}{}
+
+  \setbeamertemplate{enumerate items}[default]
 }
 
 % tvorba loga a proporčního symbolu

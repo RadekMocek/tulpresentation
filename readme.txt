@@ -1,14 +1,17 @@
 Upravená verze tulpresentation.cls od Ing. Jana Koprnického, Ph.D., kde:
 
-* Úvodní a finální slide se nepočítají do celkového počtu slidů
+Ž1 * Úvodní a finální slide se nepočítají do celkového počtu slidů
 
-* Finální slide neobsahuje jméno autora, e-mail atd.; pouze „Děkuji za pozornost“
+Ž1 * Finální slide neobsahuje jméno autora, e-mail atd.; pouze „Děkuji za pozornost“
 
-* Výchozí poměr stran je 4:3 (lze změnit na 16:9 odkomentováním/zakomentováním příslušných řádků)
+Ž1 * Výchozí poměr stran je 4:3 (lze změnit na 16:9 odkomentováním/zakomentováním příslušných řádků)
+
+Ž1 * Styl odrážek u `enumerate` jsou barevná čísla, nikoliv bílá čísla v barevném kruhu
+
+Ž1 * Nový příkaz `\subheader` pro oranžový podnadpis
 
 Historie
 ========
-
 Verze Ž1 – červen 2024
 
 ===============================================
@@ -25,7 +28,6 @@ https://www.fm.tul.cz/personal/jan.koprnicky
 
 Licence
 =======
-
 Dílo je vydáno pod licencí Creative Commons CC BY. Můžete je
 rozmnožovat a distribuovat, remixovat, změnit a vyjít z původního díla
 pro jakýkoliv účel, a to i komerční.
