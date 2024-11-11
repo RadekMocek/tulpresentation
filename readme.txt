@@ -10,11 +10,12 @@ Upravená verze tulpresentation.cls od Ing. Jana Koprnického, Ph.D. (http://pub
 
 Ž1 * Nový příkaz `\subheader{...}` pro barevný podnadpis
 
-Ž2 * Výchozí poměr stran je 4:3; na 16:9 lze přepnout přidáním volby `widescreen` (např. `\documentclass[FM,widescreen]{tulpresentation}`)
+Ž2 * Výchozí poměr stran je 4:3; na 16:9 lze přepnout přidáním volby `widescreen`
+     (např. `\documentclass[FM,widescreen]{tulpresentation}`)
 
 Ž2 * Nový příkaz `\titlesub{...}{...}{...}{...}` pro jednodušší vyplnění 4 informačních řádků na úvodním snímku
 
-Ž2 * Nové příkazy `\itemChO` a `itemChX` pro pro odrážky ve stylu (ne)zaškrtnutého pole
+Ž2 * Nové příkazy `\itemChO` a `itemChX` pro odrážky ve stylu (ne)zaškrtnutého pole
 
 Předpoklad úspěšného spuštění
 =============================
