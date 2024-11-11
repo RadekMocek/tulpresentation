@@ -4,6 +4,8 @@
 
 \newcommand{\TUL@baseclass}{beamer}
 
+\newif\if@widescreen\@widescreenfalse
+
 \DeclareOption{EN}{\PassOptionsToPackage{\CurrentOption}{EN}}
 
 \DeclareOption{FS}{\PassOptionsToPackage{\CurrentOption}{tul}}
@@ -18,10 +20,24 @@
 \DeclareOption{bwtitles}{\PassOptionsToPackage{\CurrentOption}{tul}}
 \DeclareOption{bw}{\PassOptionsToPackage{\CurrentOption}{tul}}
 \DeclareOption{fonts}{\PassOptionsToPackage{\CurrentOption}{tul}}
+
+\DeclareOption{widescreen}{\@widescreentrue}
+
 \ProcessOptions\relax
 
-%\LoadClass[aspectratio=169,t]{\TUL@baseclass}
-\LoadClass[t]{\TUL@baseclass} %4:3
+\if@widescreen
+    \LoadClass[aspectratio=169,t]{\TUL@baseclass} %16:9
+\else
+    \LoadClass[t]{\TUL@baseclass} %4:3, default
+\fi
+
+% Příkaz \titlesub pro jednodušší vyplnění 4 informačních řádků na úvodním snímku
+\newcommand{\titlesub}[4]{\author{#1}\institute{#2}\newcommand{\authorPhone}{#3}\newcommand{\authorMail}{#4}}
+
+% Příkazy pro odrážky ve stylu zaškrtávacího pole
+\usepackage{pifont}
+\newcommand{\itemChO}{\item[$\square$]}
+\newcommand{\itemChX}{\item[\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\ding{52}}}$\square$]}
 
 \usepackage{polyglossia}
 \setdefaultlanguage{czech}
