@@ -19,7 +19,8 @@ Upravená verze tulpresentation.cls od Ing. Jana Koprnického, Ph.D. (http://pub
 
 Ž3 * Nový příkaz `\anothertitle`, který umožňuje přidat více nadpisů na jeden snímek
 
-Ž3 * Pro nadpis na titulním snímku byla zvýšena dostupná šířka a hlavně poměr řádkování → víceřádkový nadpis již není tak „smrsklý“
+Ž3 * Pro nadpis na titulním snímku byla zvýšena dostupná šířka a hlavně poměr řádkování
+     → víceřádkový nadpis již není tak „smrsklý“
 
 Předpoklad úspěšného spuštění
 =============================
@@ -35,6 +36,7 @@ https://github.com/RadekMocek/DP/blob/main/3slideshow/Final%20Defence/presentati
 
 Historie
 ========
+Verze Ž3 – březen 2026
 Verze Ž2 – listopad 2024
 Verze Ž1 – červen 2024
 
