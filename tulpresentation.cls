@@ -63,6 +63,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{xcolor}
 \RequirePackage{tikz}
+\RequirePackage{setspace}
 
 % indikator, ktera fakulta/ustav je aktivni, hodnotu meni volby baliku
 \newcommand{\sekce@TUL}{TUL}
@@ -252,6 +253,8 @@
 
 \newcommand{\subheader}[1]{{\usebeamercolor[fg]{framesubtitle}\textbf{#1}\par}}
 
+\newcommand{\anothertitle}[1]{{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle} \textbf{#1}\par}}
+
 \mode<presentation>
 {
   \useinnertheme{circles}
@@ -330,9 +333,9 @@
       \includegraphics[align=t,height=58.5pt]{\symbolTULwh}
     };
     \node[below right,inner xsep=20pt,inner ysep=0.34\paperheight] at (current page.north west){ 
-      \begin{minipage}[t]{0.95\textwidth}
+      \begin{minipage}[t]{\textwidth}
         \color{white}
-        {\bf \Huge \inserttitle}
+        {\bf \Huge \setstretch{.96} \inserttitle \par}
           
         \vspace*{0.07\textheight}                   
           

@@ -17,6 +17,10 @@ Upravená verze tulpresentation.cls od Ing. Jana Koprnického, Ph.D. (http://pub
 
 Ž2 * Nové příkazy `\itemChO` a `itemChX` pro odrážky ve stylu (ne)zaškrtnutého pole
 
+Ž3 * Nový příkaz `\anothertitle`, který umožňuje přidat více nadpisů na jeden snímek
+
+Ž3 * Pro nadpis na titulním snímku byla zvýšena dostupná šířka a hlavně poměr řádkování → víceřádkový nadpis již není tak „smrsklý“
+
 Předpoklad úspěšného spuštění
 =============================
 Je potřeba mít v OS nainstalovaná tato písma:
@@ -27,6 +31,7 @@ Příklady použití
 ================
 https://github.com/RadekMocek/BP/blob/main/Slideshow/BS/presentation.tex
 https://github.com/RadekMocek/BP/blob/main/Slideshow/Final/presentation.tex
+https://github.com/RadekMocek/DP/blob/main/3slideshow/Final%20Defence/presentation.tex
 
 Historie
 ========
